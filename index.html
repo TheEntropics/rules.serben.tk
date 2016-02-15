@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<h1>Articoli</h1>
+
+<ul>
+  {% for rule in site.rules | sort: 'number' %}
+    <li>
+      <h2>
+        <small>Articolo {{rule.number}}</small>
+        <a id="art{{rule.number}}" href="#art{{rule.number}}">{{ rule.title }}</a>
+      </h2>
+      <div class="rule">
+        {{ rule.content }}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,52 @@
+header {
+  width:250px;
+  float:left;
+  position:fixed;
+  max-height: calc(100% - 50px - 10px);
+  overflow-y: scroll;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+header img {
+  display: block;
+  width: 210px;
+}
+
+strong {
+  color:#222;
+  font-weight:700;
+}
+
+section {
+  width:700px;
+  float:right;
+  padding-bottom:50px;
+}
+
+section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+small {
+  font-size:11px;
+}
+
+hr {
+  border:0;
+  background:#e5e5e5;
+  height:1px;
+  margin:0 0 20px;
+}
+
+footer {
+  width:270px;
+  float:left;
+  position:fixed;
+  bottom:50px;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+.rule ol {
+  list-style-type: lower-alpha;
+}

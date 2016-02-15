@@ -1,0 +1,16 @@
+# Site settings
+title: Regolamento The Entropics
+description: Il regolamento del gruppo "The Entropics"
+email:
+baseurl: ""
+url: "http://rules.serben.tk"
+
+collections:
+  rules:
+    output: false
+  reviews:
+    output: false
+
+# Build settings
+markdown: kramdown
+permalink: none

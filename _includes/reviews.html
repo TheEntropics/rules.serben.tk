@@ -1,0 +1,11 @@
+<div>
+    <h2>Elenco revisioni</h2>
+    <ul>
+        {% for review in site.reviews %}
+        <li>
+            <small>{{review.date | date: "%d/%m/%Y" }}</small>
+            {{review.text}}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
