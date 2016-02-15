@@ -3,7 +3,7 @@ header {
   float:left;
   position:fixed;
   max-height: calc(100% - 50px - 10px);
-  overflow-y: scroll;
+  overflow-y: auto;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
