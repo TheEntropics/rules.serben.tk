@@ -9,7 +9,7 @@ number: 3
 2. La quota è resa necessaria dalle spese di mantenimento del server ufficiale del
    gruppo.
 3. Per convenienza, se i membri sono più di 12, è invece stabilito che ogni membro
-   debba pagare una quota fissa pari a 1.00 e, di cui parte verrà utilizzata per
+   debba pagare una quota fissa pari a 1.00 euro, di cui parte verrà utilizzata per
    pagare il server e parte verrà versata in un fondo comune con cui pagare
    eventuali acquisti straordinari.
 4. Il mancato pagamento della quota comporta il ban (vedi articolo 4) da
