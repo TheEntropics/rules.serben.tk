@@ -50,3 +50,13 @@ footer {
 .rule ol {
   list-style-type: lower-alpha;
 }
+
+.rule-draft {
+  color: #aaa;
+  h2 {
+    color: #aaa !important;
+    a {
+      color: #b9beff !important;
+    }
+  }
+}

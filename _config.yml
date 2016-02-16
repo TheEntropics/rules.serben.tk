@@ -11,6 +11,13 @@ collections:
   reviews:
     output: false
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      draft: false
+
+
 # Build settings
 markdown: kramdown
 permalink: none

@@ -5,9 +5,9 @@ layout: default
 
 <ul>
   {% for rule in site.rules | sort: 'number' %}
-    <li>
+    <li class="{% if rule.draft %}rule-draft{% endif %}">
       <h2>
-        <small>Articolo {{rule.number}}</small>
+        <small>Articolo {{rule.number}} {% if rule.draft %}[bozza]{% endif %}</small>
         <a id="art{{rule.number}}" href="#art{{rule.number}}">{{ rule.title }}</a>
       </h2>
       <div class="rule">
